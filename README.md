@@ -1,2 +1,6 @@
 # BlackRockMan
-ロ○クマンのパロディゲーム。FPGAにMIPSel CPUが焼かれたMieruEMB上で動作します。
+ロ○クマンのパロディゲームです。
+FPGAにMIPSel CPUが焼かれたMieruEMB上で動作します。
+cfont.hは、MieruEMB開発元が提供しているソースコードです。
+ビルドには、MieruEMB開発元の提供するMakefile、startup.S、stdld.scriptを使用してください。
+FPGAに焼くMIPSel CPUはMieruEMB開発元のものでも構いませんが、快適なゲームプレイのためには、3ボタン同時押し時のリセットを無効化してください。
